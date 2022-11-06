@@ -18,8 +18,6 @@ export const usersReducer = (state = defaultState, action) => {
                 ...state,
                 users: [action.payload, ...state.users.slice(0, 5)],
             }
-
-
         default: return state
     }
 }
