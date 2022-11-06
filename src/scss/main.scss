@@ -1,0 +1,42 @@
+.main {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url(../image/background.jpg);
+    background-repeat: no-repeat;
+    height: 650px;
+    color: #fff;
+    max-width: 1170px;
+    margin: 0 auto;
+
+    .main__title {
+        margin-top: 164px;
+        margin-bottom: 21px;
+        font-size: 40px;
+        line-height: 40px;
+        max-width: 380px;
+
+        text-align: center;
+
+    }
+
+
+    .main__text {
+        margin-bottom: 32px;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+
+        max-width: 380px;
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .main_section {
+        max-width: 380px;
+
+    }
+}

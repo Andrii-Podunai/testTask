@@ -1,0 +1,48 @@
+.user {
+    height: 254px;
+    width: 370px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.user__card {
+    overflow: hidden;
+    padding: 20px;
+}
+
+.user__card-img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.user__card-name {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.users {
+    gap: 29px;
+    margin-bottom: 29px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user__card-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 10px;
+    margin-top: 20px;
+}
+
+.user__card-email {
+    max-width: 330px;
+}
+
+.header__button-centre {
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
