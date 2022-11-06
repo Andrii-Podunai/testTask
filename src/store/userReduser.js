@@ -10,7 +10,7 @@ export const usersReducer = (state = defaultState, action) => {
         case USERS_SEND:
             return {
                 ...state,
-                users: [...action.payload.users, ...state.users],
+                users: [...state.users, ...action.payload.users],
                 data: { ...action.payload.links }
             }
         case USER_ADD:
